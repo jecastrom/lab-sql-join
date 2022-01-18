@@ -86,6 +86,11 @@ ORDER BY
 
 image::https://user-images.githubusercontent.com/63274055/150024562-12a517f9-c6dd-43c3-9cf2-7f384d5e783c.png[width=600]
 
+xref:Lab-SQL-Join[Top Section]
+
+xref:Using-the-tables-payment-and-customer-and-the-JOIN-command[Bottom section]
+
+
 ====
 ''''
 ====
@@ -107,6 +112,11 @@ ORDER BY
 
 image::https://user-images.githubusercontent.com/63274055/150027923-55014b9d-e104-48ea-9fda-c7edaf66cef1.png[width=600]
 
+xref:Lab-SQL-Join[Top Section]
+
+xref:Using-the-tables-payment-and-customer-and-the-JOIN-command[Bottom section]
+
+
 == Display the total amount rung up by each staff member in August of 2005.
 
 `*_Answer:_*`
@@ -126,6 +136,11 @@ GROUP BY
 ```
 
 image::https://user-images.githubusercontent.com/63274055/150031435-de71ed54-4cba-4501-b0f8-d87d8b8d0fe2.png[width=600]
+
+xref:Lab-SQL-Join[Top Section]
+
+xref:Using-the-tables-payment-and-customer-and-the-JOIN-command[Bottom section]
+
 
 == List each film and the number of actors who are listed for that film.
 
@@ -147,6 +162,11 @@ LIMIT
 ```
 
 image::https://user-images.githubusercontent.com/63274055/150034018-7bf998ff-fd62-4371-b50f-b8a3bc2a1030.png[width=600]
+
+xref:Lab-SQL-Join[Top Section]
+
+xref:Using-the-tables-payment-and-customer-and-the-JOIN-command[Bottom section]
+
 
 == Using the tables payment and customer and the JOIN command
 
@@ -172,6 +192,10 @@ LIMIT
 ```
 
 image::https://user-images.githubusercontent.com/63274055/150035387-dab91b17-7014-4a02-a6b4-3f1bcc45c90d.png[width=600]
+
+xref:Lab-SQL-Join[Top Section]
+
+xref:Using-the-tables-payment-and-customer-and-the-JOIN-command[Bottom section]
 
 
 
