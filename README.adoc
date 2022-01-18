@@ -146,7 +146,11 @@ LIMIT
 
 image::https://user-images.githubusercontent.com/63274055/150034018-7bf998ff-fd62-4371-b50f-b8a3bc2a1030.png[width=600]
 
-== Using the tables payment and customer and the JOIN command, list the total paid by each customer. List the customers alphabetically by last name.
+== Using the tables payment and customer and the JOIN command:
+
+*  list the total paid by each customer. 
+
+* List the customers alphabetically by last name.
 
 `*_Answer:_*`
 
@@ -182,9 +186,9 @@ image::https://user-images.githubusercontent.com/63274055/150035387-dab91b17-701
 
 
 
-xref:Lab-xxxx[Top Section]
+xref:Lab SQL Join[Top Section]
 
-xref:Last-section[Bottom section]
+xref:Using-the-tables-payment-and-customer-and-the-JOIN-command:[Bottom section]
 
 //bla bla blafootnote:[{fn-xxx}]
 
