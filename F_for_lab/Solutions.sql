@@ -1,11 +1,12 @@
 SELECT
-    concat((last_name), ', ', (first_name)) AS staff_member_name,
-    sum(amount) AS total_sales_august_2005
+    f.title,
+    count(fa.actor_id) AS number_of_actors
 FROM
-    staff s
-    INNER JOIN payment p ON s.staff_id = p.staff_id
-WHERE
-    monthname(payment_date) = 'August'
-    AND year(payment_date) = 2005
+    film f
+    INNER JOIN film_actor fa ON f.film_id = fa.film_id
 GROUP BY
-    1;
+    f.film_id
+ORDER BY
+    2 DESC
+LIMIT
+    10;

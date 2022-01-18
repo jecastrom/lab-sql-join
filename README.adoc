@@ -130,10 +130,21 @@ image::https://user-images.githubusercontent.com/63274055/150031435-de71ed54-4cb
 `*_Answer:_*`
 
 ```sql
-
+SELECT
+    f.title,
+    count(fa.actor_id) AS number_of_actors
+FROM
+    film f
+    INNER JOIN film_actor fa ON f.film_id = fa.film_id
+GROUP BY
+    f.film_id
+ORDER BY
+    2 DESC
+LIMIT
+    10;
 ```
 
-image::path[width=800]
+image::https://user-images.githubusercontent.com/63274055/150034018-7bf998ff-fd62-4371-b50f-b8a3bc2a1030.png[width=600]
 
 == Using the tables payment and customer and the JOIN command, list the total paid by each customer. List the customers alphabetically by last name.
 
