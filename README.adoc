@@ -193,11 +193,6 @@ LIMIT
 
 image::https://user-images.githubusercontent.com/63274055/150035387-dab91b17-7014-4a02-a6b4-3f1bcc45c90d.png[width=600]
 
-xref:Lab-SQL-Join[Top Section]
-
-xref:Using-the-tables-payment-and-customer-and-the-JOIN-command[Bottom section]
-
-
 
 ====
 ''''
