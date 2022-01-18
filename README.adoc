@@ -4,7 +4,7 @@
 :image-url-ironhack: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
 :my-name: Jorge Castro DAPT NOV2021
 :description:
-:script-url: https://github.com/jecastrom/data_2.07_activities/blob/7abfb6a0375c2c4ad3021f3f9a388a495142e1a8/files_for_actitity/act%202.07%20solutions.sql
+:related-cont: https://github.com/jecastrom/data_3.01_activities.git
 //:fn-xxx: Add the explanation foot note here bla bla
 :toc:
 :toc-title: In this lab, you will be using the Sakila database of movie rentals.
@@ -114,7 +114,7 @@ image::path[width=800]
 ''''
 ====
 
-{script-url}[Solutions script only]
+{related-cont}[Related content: Activity 3.01]
 
 ====
 ''''
