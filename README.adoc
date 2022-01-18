@@ -110,10 +110,20 @@ image::https://user-images.githubusercontent.com/63274055/150027923-55014b9d-e10
 `*_Answer:_*`
 
 ```sql
-
+SELECT
+    concat((last_name), ', ', (first_name)) AS staff_member_name,
+    sum(amount) AS total_sales_august_2005
+FROM
+    staff s
+    INNER JOIN payment p ON s.staff_id = p.staff_id
+WHERE
+    monthname(payment_date) = 'August'
+    AND year(payment_date) = 2005
+GROUP BY
+    1;
 ```
 
-image::path[width=800]
+image::https://user-images.githubusercontent.com/63274055/150031435-de71ed54-4cba-4501-b0f8-d87d8b8d0fe2.png[width=800]
 
 == List each film and the number of actors who are listed for that film.
 
