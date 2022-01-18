@@ -93,10 +93,17 @@ image::https://user-images.githubusercontent.com/63274055/150024562-12a517f9-c6d
 `*_Answer:_*`
 
 ```sql
-
+SELECT
+    concat((last_name), ', ', (first_name)) AS staff_member_name,
+    address
+FROM
+    staff s
+    INNER JOIN address a ON s.address_id = a.address_id
+ORDER BY
+    1;
 ```
 
-image::path[width=800]
+image::https://user-images.githubusercontent.com/63274055/150027923-55014b9d-e104-48ea-9fda-c7edaf66cef1.png[width=600]
 
 == Display the total amount rung up by each staff member in August of 2005.
 

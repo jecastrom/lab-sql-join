@@ -1,10 +1,8 @@
 SELECT
-    c.`name` AS film_category,
-    count(fc.film_id) AS number_of_films
+    concat((last_name), ', ', (first_name)) AS staff_member_name,
+    address
 FROM
-    category c
-    INNER JOIN film_category AS fc ON c.category_id = fc.category_id
-GROUP BY
-    1
+    staff s
+    INNER JOIN address a ON s.address_id = a.address_id
 ORDER BY
-    2 DESC l;
+    1;
