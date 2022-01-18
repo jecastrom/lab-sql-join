@@ -123,7 +123,7 @@ GROUP BY
     1;
 ```
 
-image::https://user-images.githubusercontent.com/63274055/150031435-de71ed54-4cba-4501-b0f8-d87d8b8d0fe2.png[width=800]
+image::https://user-images.githubusercontent.com/63274055/150031435-de71ed54-4cba-4501-b0f8-d87d8b8d0fe2.png[width=600]
 
 == List each film and the number of actors who are listed for that film.
 
