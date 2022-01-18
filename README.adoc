@@ -186,7 +186,7 @@ image::https://user-images.githubusercontent.com/63274055/150035387-dab91b17-701
 
 
 
-xref:Lab SQL Join[Top Section]
+xref:Lab-SQL-Join[Top Section]
 
 xref:Using-the-tables-payment-and-customer-and-the-JOIN-command[Bottom section]
 
