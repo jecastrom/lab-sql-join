@@ -148,6 +148,27 @@ image::https://user-images.githubusercontent.com/63274055/150034018-7bf998ff-fd6
 
 == Using the tables payment and customer and the JOIN command, list the total paid by each customer. List the customers alphabetically by last name.
 
+`*_Answer:_*`
+
+```sql
+SELECT
+    concat((last_name), ', ', (first_name)) AS customer_name,
+    sum(amount) AS amount_total_paid
+FROM
+    customer c
+    INNER JOIN payment p ON c.customer_id = p.customer_id
+GROUP BY
+    p.customer_id
+ORDER BY
+    1
+LIMIT
+    10;
+```
+
+image::https://user-images.githubusercontent.com/63274055/150035387-dab91b17-7014-4a02-a6b4-3f1bcc45c90d.png[width=600]
+
+
+
 ====
 ''''
 ====

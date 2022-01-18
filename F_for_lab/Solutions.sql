@@ -1,12 +1,12 @@
 SELECT
-    f.title,
-    count(fa.actor_id) AS number_of_actors
+    concat((last_name), ', ', (first_name)) AS customer_name,
+    sum(amount) AS amount_total_paid
 FROM
-    film f
-    INNER JOIN film_actor fa ON f.film_id = fa.film_id
+    customer c
+    INNER JOIN payment p ON c.customer_id = p.customer_id
 GROUP BY
-    f.film_id
+    p.customer_id
 ORDER BY
-    2 DESC
+    1
 LIMIT
     10;
