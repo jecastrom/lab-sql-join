@@ -63,16 +63,26 @@ toc::[]
 
 
 = Instructions:
+
 == List number of films per `category`.
 
 
 `*_Answer:_*`
 
 ```sql
-
+SELECT
+    c.`name` AS film_category,
+    count(fc.film_id) AS number_of_films
+FROM
+    category c
+    INNER JOIN film_category AS fc ON c.category_id = fc.category_id
+GROUP BY
+    1
+ORDER BY
+    2 DESC;
 ```
 
-image::[width=700]
+image::https://user-images.githubusercontent.com/63274055/150024562-12a517f9-c6dd-43c3-9cf2-7f384d5e783c.png[width=600]
 
 ====
 ''''
